@@ -1,0 +1,92 @@
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title>
+            Cadastro banda 
+        </title>
+		<style>
+		#todoform {	
+background:#4f4f4f;	
+font:12px arial, verdana, helvetica, sans-serif;	
+border-top:8px solid #cfcfcf;
+border-left:8px solid #cfcfcf;	
+border-right:8px solid #696969;
+border-bottom:8px solid #696969;
+border-collapse:collapse;
+color:#ff9900;	
+
+}
+#todoform label {
+margin-left:50px;	
+}
+
+#todoform input {	
+background:#b5b5b5;	
+border:1px dashed #ff9900;
+	
+}
+#todoform textarea {
+border:1px dashed #ff9900;
+background:#b5b5b5;	
+}
+#todoform input.botao {	
+background:#000000;	
+color:#ffffff;
+border:2px solid #ffffff;
+}	
+</style>
+    </head>
+    <body>
+        <form id='todoform' method="POST" action="saida.php">
+            <label>Nome da banda:</label>
+            <br >
+            <input size = '50px' type="text" name="nomebanda" id="nomebanda">
+            <br>
+            <label>Link para imagem:</label>
+            <br>
+            <input size = '50px' type="text" name="linkimagem" id="linkimagem">
+            <br>
+            <label>Integrante - nome:</label>
+            <br>
+            <input size = '50px' type="text" name="nome1" id="nome1">
+            <br>
+            <label>Integrante - data de nascimento:</label>
+            <br>
+            <input size = '50px' type="text" name="data1" id="data1">
+            <br>
+            <label>Integrante - instrumento:</label>
+            <br>
+            <input size = '50px' type="text" name="instrumento1" id="instrumento1">
+            <br>
+            <label>Integrante - nome:</label>
+            <br>
+            <input size = '50px' type="text" name="nome2" id="nome2">
+            <br>
+            <label>Integrante - data de nascimento:</label>
+            <br>
+            <input size = '50px' type="text" name="data2" id="data2">
+            <br>
+            <label>Integrante - instrumento:</label>
+            <br>
+            <input size = '50px' type="text" name="instrumento2" id="instrumento2">
+            <br>
+            <label>Integrante - nome:</label>
+            <br>
+            <input size = '50px' type="text" name="nome3" id="nome3">
+            <br>
+            <label>Integrante - data de nascimento:</label>
+            <br>
+            <input size = '50px' type="text" name="data3" id="data3">
+            <br>
+            <label>Integrante - instrumento:</label>
+            <br>
+            <input size = '50px' type="text" name="instrumento3" id="instrumento3">
+            <br>
+			<label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea>
+			<br>
+            <input type="submit" value="entrar" id="entrar" name="entrar">
+            <br>
+            <a href="cadastro.html">Cadastre-se</a>
+        </form>
+    </body>
+</html>
